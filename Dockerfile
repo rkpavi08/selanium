@@ -2,7 +2,7 @@ FROM ubuntu:latest
 
 RUN apt-get update
 
-RUN apt-get install -y sudo curl wget python3 python3-pip openssh-server
+RUN apt-get install -y sudo curl wget python3 python3-pip openssh-server firefox
 
 copy requirements.txt requirements.txt
 
